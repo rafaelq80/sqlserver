@@ -105,7 +105,7 @@ Observe que ainda temos alguns problemas:
 2. A Tabela Categoria ainda está com dados repetidos;
 3. Não temos como criar um Relacionamento entre as 2 tabelas porque ambas as tabelas não possuem um identificador único e não existe uma Chave Estrangeira em uma das tabelas.
 
-A primeira coisa que faremos é definir um Identificador único na nossa Tabela Produto, que será a nossa Chave Primária:
+A primeira coisa que faremos é definir um Identificador único na nossa Tabela Produtos, que será a nossa Chave Primária:
 
 <div align="center"><h2>Tabela de Produtos</h2></div>
 
@@ -142,11 +142,11 @@ O próximo passo é eliminar os dados repetidos da Tabela Categorias e definir u
 | **5** | Ovos     |
 | **6** | Outros   |
 
-Para finalizar, vamos criar a nossa **Chave Estrangeira** (Categoria_id), na Tabela de Produtos e associar com a Tabela de Categorias
+Para finalizar, vamos criar a nossa **Chave Estrangeira** (CategoriaId), na Tabela de Produtos e associar com a Tabela de Categorias
 
 <div align="center"><h2>Tabela de Produtos</h2></div>
 
-|   Id   | Nome         | Quantidade | Data Validade | Preço        | Categoria_id |
+|   Id   | Nome         | Quantidade | Data Validade | Preço        | CategoriaId |
 | :----: | ------------ | ---------- | ------------- | ------------ | :----------: |
 | **1**  | Maçã         | 1000       | 07/03/2022    | R$      1,99 |     *1*      |
 | **2**  | Banana       | 1300       | 08/03/2022    | R$      5,00 |     *1*      |
