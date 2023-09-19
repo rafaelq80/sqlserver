@@ -103,7 +103,7 @@ Observe que ainda temos alguns problemas:
 
 1. As 2 tabelas não possuem um Identificador único;
 2. A Tabela Categoria ainda está com dados repetidos;
-3. Não temos como criar um Relacionamento entre as 2 tabelas.
+3. Não temos como criar um Relacionamento entre as 2 tabelas porque ambas as tabelas não possuem um identificador único e não existe uma Chave Estrangeira em uma das tabelas.
 
 A primeira coisa que faremos é definir um Identificador único na nossa Tabela Produto, que será a nossa Chave Primária:
 
