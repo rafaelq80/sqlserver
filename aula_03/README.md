@@ -182,7 +182,7 @@ A partir do Modelo Conceitual, podemos criar o nosso **Modelo Lógico**, onde os
 
 A partir do Modelo Lógico, podemos criar o **Modelo Físico**, onde as **Entidades se transformam em Tabelas** e os **Atributos recebem o Tipo de dado** mais adequado de acordo com o **SGBD** escolhido. Em nosso exemplo o **SQL Server**:
 
-<div align="center"><img src="https://i.imgur.com/916jCD2.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/916jCD2.png" title="source: imgur.com" width="80%"/></div>
 
 A partir do Modelo Físico é possível criar o **Dicionário de Dados** das nossas tabelas.
 
